@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: good;
+    src: url(font/goodtimesrg.ttf);
+  }
+  @font-face{
+    font-family: age;
+    src: url(font/spaceage.ttf);
+  }
+section{
+  text-align: center;
+  height: 935px;
+background: black;
+}
+.logo img{
+  height: 40px;
+  position:fixed;left: 3ch;top: 3ch;
+}
+section .navbar ul li a{
+  color: white;
+  text-decoration: none;
+  font-family: good;
+  justify-content: space-between;
+
+}
+section .navbar ul li {
+  display: inline;
+  padding: 3ch;
+}
+section .navbar ul{
+  position: relative;top: 3ch;
+}
+.ph h1 {
+  font-family: age;
+  color: white;
+  font-size: 77.05pt;
+  position: relative;    top: 298px;
+  left: -2px;
+}
+.ph h2 {
+  font-family: age;
+  color: white;
+  font-size: 77.05pt;
+  position: relative;
+  top:327px;
+  left: -4px;
+}
+.ph {
+position: relative;top: 0ch;
+}
+.ph img{
+  height: 288px;
+  position: relative;top: -28ch;
+}
+.ph .circle{
+  height: 425px;
+  width: 425px;
+  border-radius: 50%;
+  background-color: white;
+  mix-blend-mode: exclusion;
+  margin: auto;
+}
+.box{
+height: 60px;
+width: 30px;
+border: solid 2px white;
+margin: auto;
+position: relative;top:-19ch;
+border-radius: 40px;
+}
+.arrow{
+  height: 16px;
+  width:  16px;
+  border: solid 2px white;
+  transform: rotate(43deg);
+  position: relative;    top: 16px;
+  left: 5.2px;
+  border-top: 0px;
+  border-left: 0px;
+  animation: move 2s linear infinite;
+}
+@keyframes move{
+  0%{ position: relative;    top: 16px;}
+  50%{ position: relative;    top: 22px;}
+}
+.two{
+  text-align: center;
+  height: 935px;
+background: black;
+
+}
+
+.two div{
+  position: relative;left:25ch;
+}
+.two h1{
+  color: white;
+  font-family:age;
+  font-size: 90px;
+  position: relative;top: 2ch;left:-5.4ch;
+}
+.two p{
+  color: white;
+  height: 100px;
+  width: 359px;
+  margin: auto;
+  font-size: 30px;
+  text-align: left;
+  position: relative;    top: 11ch;
+  left: -30.4ch;
+}
+.two div img {
+  height: 529px;
+  position: relative;
+  left: -257px;
+}
+
+
+.three div h1{
+  color: white;
+  font-family:age;
+  font-size: 90px;
+}
+.three div img{
+  height: 200px;
+}
